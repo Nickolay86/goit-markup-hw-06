@@ -70,6 +70,51 @@
 					<button data-modal-open class="btn" type="button">Заказать услугу</button>
 					<div class="backdrop is-hidden" data-modal>
 						<div class="modal">
+							<form class="field-form">
+								<b class="field-title">Оставьте свои данные, мы вам перезвоним</b>
+								<div class="field-list">
+									<label class="field-item">
+										<span class="field-name">Имя</span>
+										<input class="field-box" type="text" name="user-name" />
+										<svg class="field-icon" width="18" height="18">
+											<use href="./images/sprite.svg#icon-person-modal"></use>
+										</svg>
+									</label>
+								</div>
+								<div class="field-list">
+									<label class="field-item">
+										<span class="field-name">Телефон</span>
+										<input class="field-box" type="tel" name="tel" />
+										<svg class="field-icon" width="18" height="18">
+											<use href="./images/sprite.svg#icon-phone-modal"></use>
+										</svg>
+									</label>
+								</div>
+								<div class="field-list">
+									<label class="field-item">
+										<span class="field-name">Почта</span>
+										<input class="field-box" type="mail" name="mail" />
+										<svg class="field-icon" width="18" height="18">
+											<use href="./images/sprite.svg#icon-email-modal"></use>
+										</svg>
+									</label class="field-item">
+								</div>
+								<div class="field-list">
+									<label class="field-item">
+										<span class="field-name">Комментарий</span>
+										<textarea class="field-area" name="coments" rows="5"></textarea>
+									</label>
+								</div>
+								<div>
+									<label class="label">
+										<input class="checkbox" type="checkbox" name="agreement" />
+										<span class="check-icon"></span>
+										<span class="check-text">Соглашаюсь с рассылкой и принимаю </span>  
+										<a href="">Условия договора</a>
+									</label>
+								</div>
+								<button class="field-btn" type="submit">Отправить</button>
+							</form>
 							<button class="close-button" data-modal-close>
 								<svg class="icon-close" width="18" height="18">
 									<use href="./images/sprite.svg#icon-close"></use>
@@ -540,6 +585,20 @@
 							</a>
 						</li>
 					</ul>
+				</div>
+				<div class="send-title">
+					<p class="send-text">ПOДПИШИТЕСЬ НА РАССЫЛКУ</p>
+					<form class="send-form">
+						<label class="send-box">
+							<input class="send-item" type="mail" name="mail" placeholder="E-mail" />
+						</label>
+						<button class="send-btn" type="submit">
+							Подписаться
+							<svg class="send-icon" width="24" height="24">
+								<use href="./images/sprite.svg#icon-send"></use>
+							</svg>
+						</button>
+					</form>
 				</div>
 			</div>
 		</footer>

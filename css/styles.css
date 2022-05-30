@@ -381,10 +381,13 @@ h1,h2,h3,h4,h5,h6,p{
     cursor: pointer;
     margin-top: 30px;
 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     
     color: #FFFFFF;
-
+    outline: none;
 }
 
 .checkbox{
@@ -439,6 +442,10 @@ h1,h2,h3,h4,h5,h6,p{
     
     color: var(--txt-cl);
     margin-right: 5px;
+}
+
+.check-link{
+    color: var(--accent-cl);
 }
 
 .close-button{
@@ -939,7 +946,7 @@ img{
     color: #FFFFFF;
 
     cursor: pointer;
-    
+    outline: none;
 
 }
 
